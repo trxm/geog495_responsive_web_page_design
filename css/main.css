@@ -34,8 +34,16 @@
 
 /* Style for page content */
 .content {
+  display: flex;
   padding: 14px;
   font-size: 22px;
+}
+
+.content > img {
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: auto;
 }
 
 /* When the screen is less than 800 pixels wide, */
